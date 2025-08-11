@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+datasets/
+outputs/
+runs/
+*.pt
+*.pth
+

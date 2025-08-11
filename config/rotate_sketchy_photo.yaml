@@ -1,0 +1,25 @@
+# Self-supervised DA on Sketchy: source=photo -> target=sketch
+DATA:
+  ROOT: datasets # repo root for datasets
+  NAME: SKETCHY # just a label; used in logs
+  PATH: datasets/sketchy # where your real data lives
+  SOURCE: photo
+  TARGET: sketch
+
+MODEL:
+  ARCH: resnet50
+
+SOLVER:
+  EPOCHS: 2
+  BATCH_SIZE: 16
+  LR: 0.00015
+  NUM_WORKERS: 2
+
+PRETEXT:
+  USE_ROTATION: true
+  ROT_WEIGHT: 0.5
+  ANGLES: [0, 90, 180, 270]
+
+OUTPUT:
+  DIR: outputs/sketchy_rot
+  DEVICE: auto # use cuda/mps if available

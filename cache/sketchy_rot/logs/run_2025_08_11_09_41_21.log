@@ -1,0 +1,17 @@
+2025-08-11 09:41:21,639 INFO Inferred method: rotate
+2025-08-11 09:41:21,639 INFO Random seed: 42
+2025-08-11 09:41:22,050 INFO Constructed datasets configuration from DATA/SOLVER/PRETEXT
+2025-08-11 09:45:21,753 INFO Epoch  0 | iter   35 | src_class: 0.891 | src_aux: 4.915 | tar_entropy: 4.782 | tar_aux: 0.742 |6.66 s/it
+2025-08-11 09:49:17,856 INFO Epoch  0 | iter   70 | src_class: 1.067 | src_aux: 4.880 | tar_entropy: 4.783 | tar_aux: 0.732 |6.70 s/it
+2025-08-11 09:53:12,640 INFO Epoch  0 | iter  105 | src_class: 0.845 | src_aux: 4.838 | tar_entropy: 4.786 | tar_aux: 1.121 |6.70 s/it
+2025-08-11 09:57:05,288 INFO Epoch  0 | iter  140 | src_class: 0.774 | src_aux: 4.865 | tar_entropy: 4.789 | tar_aux: 0.684 |6.69 s/it
+2025-08-11 10:01:00,491 INFO Epoch  0 | iter  175 | src_class: 1.004 | src_aux: 4.833 | tar_entropy: 4.791 | tar_aux: 0.816 |6.70 s/it
+2025-08-11 10:04:55,599 INFO Epoch  0 | iter  210 | src_class: 0.647 | src_aux: 4.781 | tar_entropy: 4.793 | tar_aux: 0.581 |6.70 s/it
+2025-08-11 10:08:52,581 INFO Epoch  0 | iter  245 | src_class: 0.767 | src_aux: 4.707 | tar_entropy: 4.793 | tar_aux: 0.992 |6.71 s/it
+2025-08-11 10:12:59,949 INFO Epoch  0 | iter  280 | src_class: 0.602 | src_aux: 4.816 | tar_entropy: 4.794 | tar_aux: 0.759 |6.75 s/it
+2025-08-11 10:17:03,032 INFO Epoch  0 | iter  315 | src_class: 1.040 | src_aux: 4.824 | tar_entropy: 4.797 | tar_aux: 0.739 |6.78 s/it
+2025-08-11 10:21:09,751 INFO Epoch  0 | iter  350 | src_class: 0.837 | src_aux: 4.699 | tar_entropy: 4.796 | tar_aux: 1.016 |6.80 s/it
+2025-08-11 10:21:57,188 INFO Saving model to cache/sketchy_rot/models/model_000351.pth
+2025-08-11 10:21:57,364 INFO validating...
+2025-08-11 10:23:13,327 INFO aux acc: 100.00 %, class_acc: 2.32 %
+2025-08-11 10:23:33,335 INFO testing...
