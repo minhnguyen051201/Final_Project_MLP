@@ -1,7 +1,0 @@
-2025-08-10 23:59:57,187 INFO Inferred method: rotate
-2025-08-10 23:59:57,187 INFO Random seed: 42
-2025-08-10 23:59:57,587 INFO Constructed datasets configuration from DATA/SOLVER/PRETEXT
-2025-08-11 00:04:04,290 INFO Epoch  0 | iter   35 | src_class: 0.663 | src_aux: 4.712 | tar_entropy: 4.786 | tar_aux: 0.830 |6.86 s/it
-2025-08-11 00:08:02,618 INFO Epoch  0 | iter   70 | src_class: 0.543 | src_aux: 4.621 | tar_entropy: 4.794 | tar_aux: 0.648 |6.84 s/it
-2025-08-11 00:12:07,170 INFO Epoch  0 | iter  105 | src_class: 0.637 | src_aux: 4.520 | tar_entropy: 4.801 | tar_aux: 0.728 |6.89 s/it
-2025-08-11 00:16:05,436 INFO Epoch  0 | iter  140 | src_class: 0.601 | src_aux: 4.275 | tar_entropy: 4.800 | tar_aux: 0.527 |6.87 s/it
