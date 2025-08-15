@@ -10,10 +10,15 @@ MODEL:
   ARCH: resnet50
 
 SOLVER:
-  EPOCHS: 2
+  EPOCHS: 20
   BATCH_SIZE: 16
   LR: 0.00015
   NUM_WORKERS: 2
+
+SCHEDULER:
+  TYPE: step
+  STEP_SIZE: 10 # decay LR once mid‑training
+  GAMMA: 0.1
 
 PRETEXT:
   USE_ROTATION: true
